@@ -1,0 +1,29 @@
+@import 'custom_colors';
+
+div.Formulario{
+    padding: 30px;
+    min-height: 83vh;
+}
+
+label.label{
+    font-weight: normal;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+p.help{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#message{
+    height: 150px;
+    text-align: start;
+}
+
+.Contato{
+    padding-top: 100px;
+    text-align: center;
+}

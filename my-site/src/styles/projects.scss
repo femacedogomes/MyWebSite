@@ -1,0 +1,66 @@
+@import './custom_colors';
+
+div.ProjetosPage{
+    min-height: 83vh;
+    text-align: center;
+    margin: auto;
+}
+@keyframes animacao1 {
+    from {min-width: 50px; min-height: 50px; width:50px; height: 50%;background-color: $custom-dark}
+    to {width: 300px; height: 250px; background-color: rgb(255, 255, 255)}
+}
+
+@keyframes animacao2 {
+    from {background-color: $custom-dark;}
+    to {background-color: white;}
+}
+
+div.container.is-mobile.is-fluid{
+    margin-top: 20px;
+    padding-top: 30px;
+}
+div.column{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.column.is-10.is-offset-1{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+}
+.Projetos{
+    min-width: 260px;
+    font-family: 'Righteous', cursive;
+    font-size: 32px;
+    animation-name: animacao2;
+    animation-duration: 2s;
+}
+.Projeto {
+    min-width: 260px;
+    max-width: 350px;
+    min-height: 200px;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: animacao1;
+    animation-duration: 2s;
+}
+.Projeto:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.678);
+}
+
+@media (max-width:700px) {
+    .ProjectsGroup {
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction:column;
+        
+    }
+
+}

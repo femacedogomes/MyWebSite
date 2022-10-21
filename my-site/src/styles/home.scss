@@ -1,0 +1,119 @@
+@import './_custom_colors';
+
+
+.Article{
+    margin-top: 100px;
+}
+.Final{
+    margin-bottom: 50px;
+}
+.Home{
+  display: flex;
+  padding: 0 10px;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.HomeTitle{
+  font-family: 'Righteous', cursive;
+  color: black;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.typingAnimation {
+    font-family: 'Righteous', cursive;
+    color: black;
+    padding: 0px;
+    display: flex;
+    border-right: 1px solid white;
+    font-size: 3em;
+    white-space: nowrap;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    animation: blinkCursor 800ms steps(25) infinite normal,
+    typing 2s steps(25) 1s normal both;
+  };
+img.caricature{
+  min-width: 250px;
+  max-width: 400px;
+
+}
+.ScrollDown{
+  padding-top: 150px;
+  text-align: center;
+  margin: auto;
+  color: black;
+  animation: 1s animate-ScrollDown linear infinite alternate;
+
+}
+div.divLinks{
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+
+}
+.Icons{
+  width: 50px;
+  height: 50px;
+}
+@keyframes animate-ScrollDown {
+  from {opacity: 0;}
+  to {opacity: 100%;}
+}
+@keyframes blinkCursor {
+    from{
+     border-right: 1px solid black;
+
+    }
+    to{
+      border-right: transparent
+    }
+  }
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 10em;
+    }
+}
+@media (max-width:790px) {
+  .Home{
+    display: grid;
+  }
+  .HomeTitle{
+    font-size: 1.5rem;
+  }
+  .typingAnimation{
+    font-size: 2.0rem;
+  }
+  img.caricature{
+    min-width: 250px;
+    max-width: 250px;
+  }
+  p{
+    font-size: 1em;
+    margin-right: auto
+  }
+}
+@media (max-width: 340px) {
+  .Home{
+    display: grid;
+    
+  }
+  .HomeTitle{
+    font-size: 1.0rem;
+  }
+  .typingAnimation{
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 14px;
+    margin-right: auto
+  }
+}

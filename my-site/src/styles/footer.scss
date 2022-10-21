@@ -1,0 +1,31 @@
+@import './_custom_colors';
+
+div#footer.container{
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    min-height: 55px;
+    font-family: 'Righteous', cursive;
+    background-color: rgba(0, 0, 0, 0.904);
+    color: white;
+    position: relative;
+    bottom: 0;
+}
+
+#footer p {
+    text-align: center;
+    margin: auto;
+    color: $custom-grey-light;
+}
+.FooterLinks{
+    text-decoration: none;
+    color: $custom-grey-light;
+}
+.FooterIcons{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right:10px;
+    height: 40px;
+}

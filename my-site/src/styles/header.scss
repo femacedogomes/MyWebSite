@@ -1,0 +1,49 @@
+@import './_custom_colors';
+
+nav.navbar{
+    height: 120px;
+    width: 100vw;
+    border-bottom: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    opacity: 0.96;
+    top: 0px;
+};
+h1.is-3.title{
+    color: $custom-grey-light;
+}
+.Link {
+    font-family: 'Righteous', cursive;
+    font-size: large;
+    text-decoration: none;
+    color: $custom-grey;
+}
+a.navbar-item:hover{
+    background-color: $custom-grey;
+    color: black;
+    .Link{
+        color: black;
+        
+    }
+}
+.Menu{
+    margin-right: 20px;
+}
+div.navbar-menu.is-active{
+    margin-right: 40px;
+    background-color: black;
+    padding-left: 30px;
+}
+div.navbar-burger{
+    margin-right: 10px;
+    color: $custom-grey-light;
+
+}
+.Theme{
+    color: white;
+    width: 42px;
+}
+#DivThemeIcon{
+    margin: auto;
+    padding: 10px;
+}

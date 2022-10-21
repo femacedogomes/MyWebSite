@@ -1,0 +1,32 @@
+@import 'custom_colors';
+.KnowledgeElement{
+    margin-top: 250px;
+    margin-bottom: 280px;
+}
+.knowledgeIcons{
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.knowledgeIcon{
+    margin: 10px;
+    width: 5vw;
+    min-width: 35px;
+    max-width: 60px;
+}
+.knowledgeText{
+    text-align: center;
+    align-items: center;
+}
+
+.knowledgeIcon:hover{
+    scale: 1.2;
+}
+#conhecimentos{
+    font-size: 32px;
+    font-family: 'Righteous', cursive;
+    color: black;
+}
