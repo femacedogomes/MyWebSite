@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/myWebSite/static/css/main.d88a8f82.css",
+    "main.js": "/myWebSite/static/js/main.133635d6.js",
+    "static/js/787.a5fa54f9.chunk.js": "/myWebSite/static/js/787.a5fa54f9.chunk.js",
+    "static/media/Caricaturav2.png": "/myWebSite/static/media/Caricaturav2.19388d1a64268e01ceba.png",
+    "static/media/react.png": "/myWebSite/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/ftPerfil.jpeg": "/myWebSite/static/media/ftPerfil.2520a16888bcd3644e22.jpeg",
+    "static/media/node-js.png": "/myWebSite/static/media/node-js.e328955d6bbbf3ebc72b.png",
+    "static/media/api.png": "/myWebSite/static/media/api.968578572287965a93cc.png",
+    "static/media/mongoDB.png": "/myWebSite/static/media/mongoDB.3267327599a9011812b1.png",
+    "static/media/html5.png": "/myWebSite/static/media/html5.2c6a71b184b518b01b9a.png",
+    "static/media/css-3.png": "/myWebSite/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/typescript.png": "/myWebSite/static/media/typescript.af108db04a54d784da9b.png",
+    "static/media/js.png": "/myWebSite/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/myWebSite/index.html",
+    "main.d88a8f82.css.map": "/myWebSite/static/css/main.d88a8f82.css.map",
+    "main.133635d6.js.map": "/myWebSite/static/js/main.133635d6.js.map",
+    "787.a5fa54f9.chunk.js.map": "/myWebSite/static/js/787.a5fa54f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d88a8f82.css",
+    "static/js/main.133635d6.js"
+  ]
+}
